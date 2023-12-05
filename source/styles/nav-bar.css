@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    background-color: #7B5E45;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    background-color: rgb(108, 66, 3);
+}
+
+.nav-btn {
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 2px;
+    border: 0;
+    background-color: rgb(23, 22, 22);
+    color: aliceblue;
+}
+
+.navbar>a>img {
+    width: 80px;
+    padding-left: 30px;
+}
+
+.dropdown-menu {
+    background-color: #7B5E45;
+    margin: 89%;
+ }
